@@ -1,0 +1,23 @@
+{
+  "name": "ion-resources",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silo/ion-resources.git"
+  },
+  "author": "Silo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silo/ion-resources/issues"
+  },
+  "homepage": "https://github.com/silo/ion-resources#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "xml2js": "^0.4.19"
+  }
+}
