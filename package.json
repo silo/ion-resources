@@ -1,6 +1,6 @@
 {
   "name": "ion-resources",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automatic generate Icon and Splash for IONIC and Cordova",
   "main": "index.js",
   "preferGlobal": "true",
