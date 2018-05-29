@@ -111,11 +111,17 @@ var getPlatforms = function () {
     splashPath : 'resources/ios/splash/',
     splashes : [
       // iPhone
+      { name: 'Default-Portrait.png',          width: 768,  height: 1024 },
+      { name: 'Default-Portrait@2x.png',       width: 1536, height: 2048 },
+      { name: 'Default-Landscape.png',         width: 1024, height: 768  },
+      { name: 'Default-Landscape@2x.png',      width: 2048, height: 1536 },
       { name: 'Default~iphone.png',            width: 320,  height: 480  },
       { name: 'Default@2x~iphone.png',         width: 640,  height: 960  },
       { name: 'Default-568h@2x~iphone.png',    width: 640,  height: 1136 },
       { name: 'Default-667h.png',              width: 750,  height: 1334 },
+      { name: 'Default-Landscape-667h@2x.png', width: 1334, height: 750  },
       { name: 'Default-736h.png',              width: 1242, height: 2208 },
+      { name: 'Default-Landscape-568h@2x.png', width: 1136, height: 640  },
       { name: 'Default-Landscape-736h.png',    width: 2208, height: 1242 },
       { name: 'Default-2436h.png',             width: 1125, height: 2436 },
       { name: 'Default-Landscape-2436h.png',   width: 2436, height: 1125 },
@@ -127,7 +133,21 @@ var getPlatforms = function () {
       { name: 'Default-Landscape@2x~ipad.png', width: 2048, height: 1536 },
       { name: 'Default-Landscape@~ipadpro.png', width: 2732, height: 2048 },
       // Universal
-      { name: 'Default@2x~universal~anyany.png',   width: 2732, height: 2732 }
+      { name: 'Default@2x~universal~anyany.png', width: 2732, height: 2732 }
+
+      // new test
+      { name: 'Default@2x.png',                width: 640,  height: 960  },
+      { name: 'Default-568h@2x.png',           width: 640,  height: 1136 },
+      { name: 'Default-667h@2x.png',           width: 750,  height: 1334 },
+      { name: 'Default-Landscape-736h@3x.png', width: 2208, height: 1242 },
+      { name: 'Default-Portrait-736h@3x.png',  width: 1242, height: 2208 },
+      { name: 'Default-Portrait-2436h@3x.png', width: 1125, height: 2436 },
+      { name: 'Default-Landscape-2436h@3x.png',width: 2436, height: 1125 },
+      { name: 'Default-Landscape.png',         width: 1024, height: 768  },
+      { name: 'Default-Portrait.png',          width: 768,  height: 1024 },
+      { name: 'Default-Landscape@2x.png',      width: 2048, height: 1536 },
+      { name: 'Default-Portrait@2x.png',       width: 1536, height: 2048 },
+
     ]
   });
   platforms.push({
