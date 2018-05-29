@@ -110,7 +110,7 @@ var getPlatforms = function () {
     ],
     splashPath : 'resources/ios/splash/',
     splashes : [
-      // iPhone
+  /*    // iPhone
       { name: 'Default-Portrait.png',          width: 768,  height: 1024 },
       { name: 'Default-Portrait@2x.png',       width: 1536, height: 2048 },
       { name: 'Default-Landscape.png',         width: 1024, height: 768  },
@@ -147,6 +147,10 @@ var getPlatforms = function () {
       { name: 'Default-Portrait.png',          width: 768,  height: 1024 },
       { name: 'Default-Landscape@2x.png',      width: 2048, height: 1536 },
       { name: 'Default-Portrait@2x.png',       width: 1536, height: 2048 },
+*/
+      // taken sizes from https://cordova.apache.org/docs/en/latest/config_ref/images.html
+      // trying with one global size
+      { name: 'Default@2x~universal~anyany.png', width: 2732, height: 2732 },
 
     ]
   });
