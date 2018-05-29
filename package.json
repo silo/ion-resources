@@ -1,7 +1,7 @@
 {
   "name": "ion-resources",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Automatic generate Icon and Splash for IONIC and Cordova",
   "main": "index.js",
   "preferGlobal": "true",
   "directories": {
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/silo/ion-resources.git"
   },
-  "author": "Silo",
+  "author": "Silo <silo@web2people.dk>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/silo/ion-resources/issues"
